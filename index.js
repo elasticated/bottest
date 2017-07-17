@@ -89,6 +89,14 @@ controller.hears('hello', 'direct_message', function (bot, message) {
     bot.reply(message, 'Hello!');
 });
 
+// controller.hears(
+//     ['What time?', 'When?', 'What's going on?],
+//     ['direct_mention', 'mention', 'direct_message'],
+//     function(bot,message) {
+//         bot.reply(message,'About an hour away, someone seems to have dropped a parcel.');
+//     }
+// );
+
 
 /**
  * AN example of what could be:
