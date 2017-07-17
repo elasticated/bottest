@@ -1,10 +1,10 @@
 {
-  "name": "eta-agent",
+  "name": "eta-bot",
   "version": "1.0.0",
   "description": "Gives you an accurate, estimated arrival time.",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
